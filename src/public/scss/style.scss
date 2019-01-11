@@ -1,0 +1,183 @@
+$font-stack:    'Open Sans', Helvetica, sans-serif;
+$primary-color: #333;
+$inputHighlight_color: #FFF;
+
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+.padding-top{
+  padding-top: 10px;
+}
+
+.padding-bottom{
+  padding-bottom: 20px;
+}
+
+.padding-left{
+  padding-left: 20px;
+}
+
+.padding-right{
+  padding-right: 20px;
+}
+
+.navbar-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 12.5%;
+  display: block;
+}
+
+.mdl-navigation__link {
+  color: black;
+}
+
+.mdl-card {
+  margin: 0 auto;
+  height: 320px;
+  width: 320px;
+}
+
+.mdl-mini-footer__link-list > li:hover {
+  text-decoration: underline;
+}
+
+.link-title {
+  color: black;
+}
+
+.about-panel--text {
+  margin: 0;
+  padding: 100px;
+  box-sizing: unset;
+}
+
+dl {
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.about-panel--text dl dd {
+  text-align: left;
+  line-height: 2em;
+  vertical-align: top;
+  width: 700px;
+  margin: 0 0 0 24px;
+}
+
+.about-panel--text dl dt {
+  text-align: right;
+  vertical-align: top;
+  display: inline-table;
+  margin-right: 24px;
+  line-height: 2em;
+  font-weight: 700px;
+}
+
+.main-content--text {
+  background: #bdbdbd;
+}
+
+.header-button {
+  color: white;
+  text-transform: none;
+}
+
+.demo-container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.demo-content {
+  border-radius: 2px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.mdl-cell {
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 14px;
+  letter-spacing: 0;
+  margin: 0 0 16px;
+}
+
+.purple-ribbon {
+  display: block;
+  height: 25vh;
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.demo-content > h2 {
+  margin-top: 0;
+}
+
+.footer-img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.mdl-textfield__label:after {
+  background-color: $inputHighlight_color;
+}
+
+.content-container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.descriptor-title {
+  margin: 2em auto;
+}
+
+.descriptor-title dd {
+  line-height: 20px;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.header{
+  font: 100% $font-stack;
+  color: orange! important;
+ }
+
+ .img{
+   height: 100px;
+   
+   margin-right: auto;
+ }
+
+.mdl-layout__header {
+  background-color: #4caf50;
+}
+
+dt > i {
+  margin-top: 5px;
+  font-size: 20px;
+}

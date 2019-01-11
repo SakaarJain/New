@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+		<title>Website Heart Monitoring Tool</title>
+
+		<meta name="mobile-web-app-capable" content="yes">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+
+    <meta name="msapplication-TileColor" content="#3372DF">
+		<script src="vendor/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="vendor/material.css">
+		<script src="/vendor/application-36a6cef2c93262bd48d10dc7903d310c.js"></script>
+		<link href="/css/application-00e364f72b41d9e4155538c5c8726f63.css" media="all" rel="stylesheet" />
+		<link href="/css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="/css/lilly_color.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" rel="stylesheet" />
+		<link href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" media="screen" rel="stylesheet" />
+		<script src="https://cdn.datatables.net/buttons/1.3.1/js/dataTables.buttons.min.js"></script>
+		<script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.flash.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+		<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.27/build/pdfmake.min.js"></script>
+		<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.27/build/vfs_fonts.js"></script>
+		<script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.html5.min.js"></script>
+		<script src="https://cdn.datatables.net/buttons/1.3.1/js/buttons.print.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+		<link href="https://cdn.datatables.net/buttons/1.3.1/css/buttons.dataTables.min.css" media="screen" rel="stylesheet" />
+
+    {{!-- <script src="vendor/material.js"></script> --}}
+		<script src="/js/bundle.js"></script>
+	</head>
+	<body>
+		<div class="mdl-layout mdl-js-layout">
+			{{>header}}
+			{{>navbar}}
+			<main class="content-container mdl-layout__content">
+				<div class="page-content">
+					<!-- {{>contentbody}} -->
+					{{{body}}}
+				</div>
+			</main>
+			{{>footer}}
+		</div>
+</html>

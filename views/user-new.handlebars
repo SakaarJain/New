@@ -1,0 +1,78 @@
+<div class="user-dashboard">
+    <div class="row" id="site_panel"><div class="col-md-10">
+  <div class="panel panel-default panel-table">
+    <div class="panel-heading">
+
+      <div class="row">
+        <div class="col col-xs-12">
+          <div class="col col-xs-6">
+            <h3 class="panel-title">Add Group</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel-body user_grp_panel">
+      <form accept-charset="UTF-8" action="/user_groups" class="new_user_group has-validation-callback"  id="new_user_group" method="get"><div style="display:none"></div>
+
+        <div class="form-group">
+          <input class="form-control" data-validation="required" id="usergroupname" name="user_group[name]" placeholder="Group Name" type="text">
+        </div>
+
+        <div class="fields">
+        <div class="form-group">
+          <input class="form-control" data-validation="required" id="usergroupname" name="user_group[users_attributes][0][name]" placeholder="Name" type="text">
+        </div>
+
+        <div class="form-group">
+          <input class="form-control" data-validation="email" id="usergroupname" name="user_group[users_attributes][0][email]" placeholder="Email" type="text">
+        </div>
+
+        <div class="form-group">
+          <div class="row">
+            <div class="col-sm-2">
+              <input class="form-control" data-validation="required" id="usergroupname" name="user_group[users_attributes][0][country_code]" placeholder="Country code" type="text">
+            </div>
+
+            <div class="col-sm-10">
+              <input class="form-control" data-validation="required" id="usergroupname" name="user_group[users_attributes][0][contact]" placeholder="Contact number" type="text">
+            </div>
+          </div>
+        </div>
+
+
+</div>
+        <a class="add_nested_fields" data-association="users" data-blueprint-id="users_fields_blueprint" href="javascript:void(0)"><em class="fa fa-plus pull-right"></em></a>
+
+        <div class="form-group">
+          <input class="btn btn-primary usergroupsave" name="commit" type="submit" value="Save">
+          <a class="btn btn-primary"  href="/users">Back</a>
+        </div>
+
+<div data-blueprint="<div class=&quot;fields&quot;>
+        <div class=&quot;form-group&quot;>
+          <input class=&quot;form-control&quot; data-validation=&quot;required&quot; id=&quot;usergroupname&quot; name=&quot;user_group[users_attributes][new_users][name]&quot; placeholder=&quot;Name&quot; type=&quot;text&quot; />
+        </div>
+
+        <div class=&quot;form-group&quot;>
+          <input class=&quot;form-control&quot; data-validation=&quot;email&quot; id=&quot;usergroupname&quot; name=&quot;user_group[users_attributes][new_users][email]&quot; placeholder=&quot;Email&quot; type=&quot;text&quot; />
+        </div>
+
+        <div class=&quot;form-group&quot;>
+          <div class=&quot;row&quot;>
+            <div class=&quot;col-sm-2&quot;>
+              <input class=&quot;form-control&quot; data-validation=&quot;required&quot; id=&quot;usergroupname&quot; name=&quot;user_group[users_attributes][new_users][country_code]&quot; placeholder=&quot;Country code&quot; type=&quot;text&quot; />
+            </div>
+
+            <div class=&quot;col-sm-10&quot;>
+              <input class=&quot;form-control&quot; data-validation=&quot;required&quot; id=&quot;usergroupname&quot; name=&quot;user_group[users_attributes][new_users][contact]&quot; placeholder=&quot;Contact number&quot; type=&quot;text&quot; />
+            </div>
+          </div>
+        </div>
+
+        <input id=&quot;user_group_users_attributes_new_users__destroy&quot; name=&quot;user_group[users_attributes][new_users][_destroy]&quot; type=&quot;hidden&quot; value=&quot;false&quot; /><a class=&quot;remove_nested_fields&quot; data-association=&quot;users&quot; href=&quot;javascript:void(0)&quot;><em class='fa fa-minus pull-right'></em></a>
+</div>" id="users_fields_blueprint" style="display: none"></div></form>    </div>
+  </div>
+</div>
+</div>
+  </div>
